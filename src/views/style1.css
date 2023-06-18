@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+.form-box {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	margin: auto auto;
+	padding: 40px;
+	margin-top:auto;
+	border-radius: 5px;
+	box-shadow: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -7%;
+	right: 0%;
+	width: 500px;
+	height: 450px;
+}
+.form-box:before {
+	background-image: url("https://www.geotab.com/CMS-Media-production/UK/Resources/Blogs/2022/January/ConnectedCarsConnectedFleets/connected-car-blog-AdobeStock_190904424-823729237-hero@1x.jpg");
+	width: 110%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(2px);
+}
+.form-box .header-text {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form-box input {
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+.form-box input[type=checkbox] {
+	display: none;
+}
+
+.form-box label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: -58%;
+	background-color: #ddd;
+	margin-left: 20%;
+}
+.form-box input[type=checkbox]:checked+label:before {
+	content: "\2713";
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 20px;
+}
+.form-box span {
+	font-size: 14px;
+}
+.form-box button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+span a {
+	color: #BBB;
+}
+.custom-file-upload {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff; /* Couleur du texte */
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	
+	
+  }
+  
+ 
+  
+  .camera-icon {
+	margin-right: 8px;
+	
+	
+  }
